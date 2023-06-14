@@ -1,0 +1,12 @@
+(function(){ 
+      if (typeof window !== 'undefined') {
+        window.ldFlags = {"cover-page-tutorial-banner":false,"expt-fork-rename-clone":"Fork Repl","expt-landing-payoff":{"payoff":["Code, create, and","learn together"]},"flag-expt-forking-modal":false,"flag-profile-2-presence":true,"flag-revert-template-release":false,"flag-test-string":"anon","flag-workspace-docs":false,"landing-page-payoff-now":false,"show-landing-page-huge-gif":true,"wiggle_animation_landing_page":true,"$flagsState":{"cover-page-tutorial-banner":{"variation":1,"version":2},"expt-fork-rename-clone":{"variation":0,"version":3},"expt-landing-payoff":{"variation":0,"version":19},"flag-expt-forking-modal":{"variation":1,"version":4},"flag-profile-2-presence":{"variation":0,"version":3},"flag-revert-template-release":{"variation":1,"version":3},"flag-test-string":{"variation":1,"version":3},"flag-workspace-docs":{"variation":1,"version":2},"landing-page-payoff-now":{"variation":1,"version":6},"show-landing-page-huge-gif":{"variation":0,"version":4,"reason":{"kind":"FALLTHROUGH","inExperiment":true},"trackEvents":true,"trackReason":true},"wiggle_animation_landing_page":{"variation":0,"version":3}},"$valid":true}; 
+        window.ldAnonId = "6f01cccb-ba62-4634-bc1f-4ab50bf5a046";
+      }
+      if (typeof localStorage !== 'undefined') {
+        localStorage.setItem("ajs_anonymous_id", "6f01cccb-ba62-4634-bc1f-4ab50bf5a046");
+      }
+      if (typeof document !== 'undefined' && document.cookie && !document.cookie.includes("ajs_anonymous_id")) {
+        document.cookie = "ajs_anonymous_id=6f01cccb-ba62-4634-bc1f-4ab50bf5a046; path=/";
+      }
+})();
